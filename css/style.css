@@ -1,0 +1,49 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    justify-content:center ;
+    display: flex;
+    min-height: 100vh;
+    display: block;
+}
+
+.morning{
+    height: 250px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+    
+}
+.evening{
+    height: 150px;
+    width: 170px;
+    background: #ffcc29;
+    transform: rotate(30deg) skewX(-30deg);
+    position: absolute;
+    margin: -10px; 
+    padding: 5px;
+    top:20%;
+    bottom:30% ;
+    left: 110px;
+
+}
+.morning1{
+    height: 120px;
+    width: 120px;
+    background:#3E4095;
+     -moz-border-radius: 120px;
+     -webkit-border-radius: 120px;
+
+    border-radius: 120px;
+    position: absolute;
+    margin: 60px;
+    padding: 0px;
+    left: 70px;
+
+}
+h2{
+    background:yellow;
+    font-size: 40px;
+}
+
